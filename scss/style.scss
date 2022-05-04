@@ -3,13 +3,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap");
 $Goldman: "Goldman", cursive;
 $Gothic: "Gothic A1", sans-serif;
 $Passion: "Passion One", cursive;
 $Prompt: "Prompt", sans-serif;
 $Jua: "Jua", sans-serif;
+$NotoKorea: "Noto Sans KR", sans-serif;
 $pFont: $Passion;
-$KoreaFont: $Jua;
+$KoreaFont: $NotoKorea;
 * {
   margin: 0;
   padding: 0;
@@ -164,7 +166,7 @@ body {
                   li {
                     margin-top: 30px;
                     h3 {
-                      font: bold 16px/1 $KoreaFont;
+                      font: 900 16px/1 $KoreaFont;
                       color: #1f1f1f;
                     }
                     p {
