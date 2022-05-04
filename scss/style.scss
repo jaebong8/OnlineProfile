@@ -1,21 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 $Goldman: "Goldman", cursive;
 $Gothic: "Gothic A1", sans-serif;
-$Kanit: "Kanit", sans-serif;
-$Opensans: "Open Sans", sans-serif;
-$Raleway: "Raleway", sans-serif;
 $Passion: "Passion One", cursive;
-$Dela: "Dela Gothic One", cursive;
 $Prompt: "Prompt", sans-serif;
+$Jua: "Jua", sans-serif;
 $pFont: $Passion;
-$KoreaFont: $Gothic;
+$KoreaFont: $Jua;
 * {
   margin: 0;
   padding: 0;
@@ -222,7 +216,7 @@ body {
                     }
                     p {
                       margin-top: 10px;
-                      font: 14px/1 $KoreaFont;
+                      font: 12px/1 $KoreaFont;
                       color: #555;
                     }
                   }
