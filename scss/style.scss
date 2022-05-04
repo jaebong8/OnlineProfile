@@ -51,6 +51,7 @@ body {
     .container {
       width: 60%;
       height: 100vh;
+      min-height: 937px;
       background-color: #fff;
       position: absolute;
       top: 50%;
@@ -106,7 +107,7 @@ body {
             height: 370px;
             position: absolute;
             left: 0;
-            bottom: -20%;
+            bottom: -80px;
             filter: grayscale(100%);
             img {
               width: 100%;
