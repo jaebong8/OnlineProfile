@@ -156,22 +156,22 @@ body main .container .bottom > ul > li:nth-of-type(1) > div > ul > li a i {
 body main .container .bottom > ul > li:nth-of-type(2) {
   padding-top: 100px;
 }
-body main .container .bottom > ul > li:nth-of-type(2) .experience h2 {
+body main .container .bottom > ul > li:nth-of-type(2) .experience > h2 {
   margin-top: 20px;
 }
-body main .container .bottom > ul > li:nth-of-type(2) .experience ul li {
+body main .container .bottom > ul > li:nth-of-type(2) .experience > ul > li {
   margin-top: 30px;
 }
-body main .container .bottom > ul > li:nth-of-type(2) .experience ul li h3 {
+body main .container .bottom > ul > li:nth-of-type(2) .experience > ul > li > h3 {
   font: 900 16px/1 "Noto Sans KR", sans-serif;
   color: #1f1f1f;
 }
-body main .container .bottom > ul > li:nth-of-type(2) .experience ul li p {
-  font: 500 14px/1 "Passion One", cursive;
+body main .container .bottom > ul > li:nth-of-type(2) .experience > ul > li > p {
+  font: 500 14px/1 "Noto Sans KR", sans-serif;
   color: #333;
   margin-top: 5px;
 }
-body main .container .bottom > ul > li:nth-of-type(2) .experience ul li span {
+body main .container .bottom > ul > li:nth-of-type(2) .experience > ul > li > span {
   display: block;
   font: 14px/1 "Noto Sans KR", sans-serif;
   color: #555;
@@ -213,6 +213,10 @@ body main .container .bottom > ul > li:nth-of-type(3) .projects ul li p {
   margin-top: 10px;
   font: 12px/1 "Noto Sans KR", sans-serif;
   color: #555;
+}
+body main .container .bottom > ul > li:nth-of-type(3) .projects ul li:nth-of-type(1) > h3 {
+  font: 900 16px/1 "Noto Sans KR", sans-serif;
+  color: #1f1f1f;
 }
 
 /*# sourceMappingURL=style.css.map */
